@@ -50,6 +50,9 @@ header nav {
 
 header nav h1 {
   font-size: 34px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 header nav h1 span {
@@ -96,4 +99,42 @@ header .banner h1 {
   margin-bottom: 30px;
   color: #252432;
   opacity: 50%;
+}
+
+/* productive-users section style */
+.productive-users {
+  text-align: center;
+  border: none;
+  border-radius: 24px;
+  padding: 50px 80px;
+  margin-bottom: 100px;
+  background-color: hsl(180, 60%, 97%);
+}
+.productive-users h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.productive-users .user-number {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.productive-users .number {
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: bold;
+}
+.productive-users h1 span {
+  direction: ltr;
+}
+.productive-users p {
+  color: #252432;
+  opacity: 50%;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.productive-users .user-number {
+  display: flex;
+  justify-content: space-around;
 }
