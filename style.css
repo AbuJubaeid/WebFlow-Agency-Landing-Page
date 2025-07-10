@@ -254,3 +254,42 @@ header .banner h1 {
   border-radius: 10px;
   width: 100%;
 }
+
+/* footer section style */
+footer {
+  height: 430px;
+  background-color: white;
+  text-align: center;
+}
+footer div {
+  padding-top: 120px;
+}
+footer h1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+footer span {
+  color: rgb(239, 183, 109);
+}
+footer p {
+  color: #8987a1;
+  margin-bottom: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+  gap: 20px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #8987a1;
+  margin-left: 30px;
+}
