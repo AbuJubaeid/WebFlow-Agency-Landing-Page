@@ -83,7 +83,7 @@ header .banner h1 {
 .action div {
   width: 520px;
 }
-.action img {
+.action .action-img {
   width: 405px;
   height: 330px;
   border: none;
@@ -159,7 +159,7 @@ header .banner h1 {
 }
 .feedback .card-container .card {
   border: none;
-  border-radius: 24px;
+  border-radius: 10px;
   background-color: white;
   padding: 20px;
   line-height: 2em;
@@ -180,4 +180,33 @@ header .banner h1 {
 }
 .feedback .card-container .card .star {
   color: orange;
+}
+
+/* focus section style */
+.focus {
+  text-align: center;
+  line-height: 3.5em;
+  margin-bottom: 100px;
+  padding: 70px 0px;
+  border: none;
+  border-radius: 14px;
+  background-color: white;
+}
+.focus h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.focus p {
+  color: #252432;
+  opacity: 50%;
+  font-size: 20px;
+}
+.focus .focus-image {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 840px;
+  height: 370px;
+  border: none;
+  border-radius: 50px;
+  background-image: url("Assets/wc-mini.png");
 }
