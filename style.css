@@ -208,5 +208,49 @@ header .banner h1 {
   height: 370px;
   border: none;
   border-radius: 50px;
-  background-image: url("Assets/wc-mini.png");
+  background-image: url("Assets/wc-big.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.contact h1 {
+  font-size: 100px;
+  font-weight: bold;
+  width: 530px;
+}
+.contact form {
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+.contact form input {
+  padding: 20px 0px;
+  border: none;
+  border-radius: 10px;
+  width: 96%;
+}
+.contact form input:placeholder-shown {
+  padding-left: 20px;
+}
+.contact form textarea {
+  padding: 20px 0px;
+  border: none;
+  border-radius: 10px;
+  width: 96%;
+}
+.contact form textarea:placeholder-shown {
+  padding-left: 20px;
+}
+.contact form button {
+  padding: 20px 0px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
 }
